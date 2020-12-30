@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Staatliches',sans-serif;
+}
+
 body{
-    background : url("/Users/thrivenkumar/Desktop/javascript/blackjacktable.jpg");
-    background-repeat:no-repeat;
+    background : url("./blackjacktable.jpg");
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 .header{
     height:90px;
@@ -39,4 +47,18 @@ body{
     align-items: center;
     color: rgb(201, 201, 0);
     font-size: 50px;
+}
+
+.footer{
+    position: fixed;
+    width: 100vw;
+    top: 95%;
+    height: 5%;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
 }
