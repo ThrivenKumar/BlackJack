@@ -1,0 +1,42 @@
+body{
+    background : url("/Users/thrivenkumar/Desktop/javascript/blackjacktable.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    height:90px;
+    margin:-8px;
+    display:flex;
+    font-size: 50px;
+    justify-content:space-around;
+}
+.logo{
+    display:inline-flex;
+    width:450px;
+    justify-content:space-around;
+    border-radius:5px;
+}
+.title{
+    color: red;
+    background-color:whitesmoke;
+    font-family:copperplate;
+    height:60px;
+    width:40px;
+    border:3px solid black;
+    border-radius: 8px;
+    margin-top:10px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.result{
+    height:90px;
+    margin:-8px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    color: rgb(201, 201, 0);
+    font-size: 50px;
+}
