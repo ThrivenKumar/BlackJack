@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="Blackjack.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <div class="title">B</div>
+            <div class="title">L</div>
+            <div class="title">A</div>
+            <div class="title">C</div>
+            <div class="title">K</div>
+            <div class="title">J</div>
+            <div class="title">A</div>
+            <div class="title">C</div>
+            <div class="title">K</div>
+        </div>
+    </div>
+    <div class="result" id="result">Let's Play</div>
+    <div class="player">
+        <div class="score">
+            <h3 >You: </h3>
+            <h3  id="humanscore">0</h3>
+        </div>
+        <div class="score">
+            <h3 class="computerscore" >Dealer: </h3>
+            <h3 class="computerscore" id="computerscore">0</h3>
+        </div>
+    </div>
+    <div class="cardcontainer">
+        <div class="left" id="humancards"></div>
+        <div class="verticalline"></div>
+        <div class="right" id="computercards"></div>
+    </div>
+    <div class="buttoncontainer">
+        <div class="buttons">
+            <button class="button clicker1" id="hit" onclick="humancard()">Hit</button>
+            <button class="button clicker2" id="stand" onclick="computercard()" disabled>Stand</button>
+            <button class="button clicker3" onclick="resetaliasdeal()">Deal</button>
+        </div>
+    </div>
+    <script src="blackjack.js"></script>
+</body>
+</html>
