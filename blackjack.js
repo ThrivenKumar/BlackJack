@@ -24,7 +24,7 @@ function humancard(){//function for displaying human cards and score.
     else{
         humanscore+=10;
     }
-    var string=listofcards[carddetails[0]]+typeofcards[carddetails[1]]+'.png';
+    var string='./'+listofcards[carddetails[0]]+typeofcards[carddetails[1]]+'.png';
     var left=document.getElementById("humancards");
     var card=document.createElement("img");
     card.src=string;
@@ -53,7 +53,7 @@ function computercard(){//function for displaying computer cards and score.
         else{
             computerscore+=10;
         }
-        var string=listofcards[carddetails[0]]+typeofcards[carddetails[1]]+'.png';
+        var string='./'+listofcards[carddetails[0]]+typeofcards[carddetails[1]]+'.png';
         var right=document.getElementById("computercards");
         var card=document.createElement("img");
         card.src=string;
