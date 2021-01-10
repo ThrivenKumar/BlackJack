@@ -1,5 +1,5 @@
 body {
-  background: url("./blackjacktable.jpg");
+  background: url("blackjacktable.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -20,12 +20,14 @@ body {
   color: red;
   background-color: whitesmoke;
   font-family: copperplate;
-  height: 60px;
-  width: 40px;
+  height: 4vh;
+  min-height: 50px;
+  width: 2.64vh;
+  min-width: 33px;
   border: 2px solid black;
   border-radius: 8px;
   margin-top: 10px;
-  font-size: 40px;
+  font-size: 4vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -36,7 +38,7 @@ body {
   justify-content: space-around;
   align-items: center;
   color: #ffec19;
-  font-size: 50px;
+  font-size: 5vh;
   font-family: copperplate;
 }
 .player {
@@ -45,7 +47,7 @@ body {
   margin-top: -30px;
   align-items: center;
   justify-content: space-around;
-  font-size: 40px;
+  font-size: 4vh;
   color: white;
   font-family: copperplate;
 }
@@ -54,17 +56,17 @@ body {
 }
 
 img {
-  width: 19.5vh;
-  min-width: 65px;
-  max-width: 19.5vh;
-  height: 30vh;
-  min-height: 100px;
+  width: 16.25vh;
+  min-width: 70px;
+  max-width: 16.25vh;
+  height: 25vh;
+  min-height: 108px;
   margin: 5px;
 }
 .cardcontainer {
   display: flex;
   height: 60vh;
-  min-height: 200px;
+  min-height: 150px;
   margin-top: -20px;
   justify-content: space-around;
 }
@@ -99,9 +101,11 @@ img {
   outline: none;
   border-radius: 5px;
   border: 2px;
-  font-size: 30px;
-  width: 125px;
-  height: 60;
+  font-size: 3vh;
+  width: 7.5vw;
+  min-width: 100px;
+  height: 3.75vw;
+  min-height: 50px;
   text-align: center;
   transition-duration: 0.3s;
   font-family: copperplate;
