@@ -137,3 +137,23 @@ img {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
+@media screen and (max-width:500px){
+    .result{
+        font-size: 4vw;
+    }
+    .player{
+        font-size:4vw;
+    }
+    img {
+        width: 16.25vw;
+        min-width: 70px;
+        max-width: 16.25vw;
+        height: 25vw;
+        min-height: 108px;
+        max-height:25vw;
+        margin: 5px;
+    }
+    .buttons{
+        width:100vh;
+    }
+}
