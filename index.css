@@ -5,7 +5,7 @@ body {
   background-position: center;
 }
 .header {
-  height: 90px;
+  height: 8vh;
   display: flex;
   font-size: 50px;
   justify-content: space-around;
