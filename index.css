@@ -139,10 +139,10 @@ img {
 
 @media screen and (max-width:500px){
     .result{
-        font-size: 4vw;
+        font-size: 8vw;
     }
     .player{
-        font-size:4vw;
+        font-size:6vw;
     }
     img {
         width: 16.25vw;
