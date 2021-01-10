@@ -104,9 +104,9 @@ img {
   border-radius: 5px;
   border: 2px;
   font-size: 3vh;
-  width: 7.5vw;
+  width: 7.5vh;
   min-width: 80px;
-  height: 3.75vw;
+  height: 3.75vh;
   min-height: 40px;
   text-align: center;
   transition-duration: 0.3s;
