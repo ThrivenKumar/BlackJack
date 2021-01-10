@@ -138,10 +138,6 @@ img {
 }
 
 @media screen and (max-width:500px){
-    .title{
-      font-size:5vw;
-    }
-  
     .result{
         font-size: 4vw;
     }
