@@ -39,7 +39,6 @@ function humancard(){//function for displaying human cards and score.
 }
 function computercard(){//function for displaying computer cards and score.
     document.getElementById("hit").setAttribute('disabled',"true");
-    var delay;
     while(computerscore<17){
         var listofcards=['A','2','3','4','5','6','7','8','9','10','J','Q','K'];
         var typeofcards=['C','H','D','S'];
@@ -60,8 +59,6 @@ function computercard(){//function for displaying computer cards and score.
         right.appendChild(card);
         hitsound.play();
         document.getElementById("computerscore").innerHTML=computerscore;
-        delay=window.setTimeout(timerdelay,5000);
-        console.log(delay);
     }
     if((computerscore>humanscore||humanscore>21) && computerscore<22){
         result.innerHTML="You Lose";
@@ -96,8 +93,4 @@ function resetaliasdeal(){
     humanstatus.style.color="white";
     computerstatus.innerHTML="0";
     computerstatus.style.color="white";
-}
-
-function timerdelay(){
-
 }
