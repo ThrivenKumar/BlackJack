@@ -103,9 +103,9 @@ img {
   border: 2px;
   font-size: 3vh;
   width: 7.5vw;
-  min-width: 100px;
+  min-width: 80px;
   height: 3.75vw;
-  min-height: 50px;
+  min-height: 40px;
   text-align: center;
   transition-duration: 0.3s;
   font-family: copperplate;
